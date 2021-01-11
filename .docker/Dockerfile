@@ -1,0 +1,1 @@
+FROM gloursdocker/devcontainer-go
