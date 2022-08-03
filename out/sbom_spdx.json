@@ -1,0 +1,39 @@
+{
+ "SPDXID": "SPDXRef-DOCUMENT",
+ "name": ".",
+ "spdxVersion": "SPDX-2.2",
+ "creationInfo": {
+  "created": "2022-04-07T15:56:07.228780513Z",
+  "creators": [
+   "Organization: Anchore, Inc",
+   "Tool: syft-0.43.2"
+  ],
+  "licenseListVersion": "3.16"
+ },
+ "dataLicense": "CC0-1.0",
+ "documentNamespace": "https://anchore.com/syft/dir/37a0d421-5589-4955-896a-a276ce4c91b1",
+ "packages": [
+  {
+   "SPDXID": "SPDXRef-e1c2e6131f5e221e",
+   "name": "github.com/rumpl/toto",
+   "licenseConcluded": "NONE",
+   "downloadLocation": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:rumpl:toto:069be5b2a3ca7b63d08f9236ee04f56d68f3827d:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "PACKAGE_MANAGER",
+     "referenceLocator": "pkg:golang/github.com/rumpl/toto@069be5b2a3ca7b63d08f9236ee04f56d68f3827d",
+     "referenceType": "purl"
+    }
+   ],
+   "filesAnalyzed": false,
+   "licenseDeclared": "NONE",
+   "sourceInfo": "acquired package info from go module information: src/app",
+   "versionInfo": "069be5b2a3ca7b63d08f9236ee04f56d68f3827d"
+  }
+ ]
+}

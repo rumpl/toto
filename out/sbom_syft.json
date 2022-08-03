@@ -1,0 +1,135 @@
+{
+ "artifacts": [
+  {
+   "id": "e1c2e6131f5e221e",
+   "name": "github.com/rumpl/toto",
+   "version": "069be5b2a3ca7b63d08f9236ee04f56d68f3827d",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "src/app"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:rumpl:toto:069be5b2a3ca7b63d08f9236ee04f56d68f3827d:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/github.com/rumpl/toto@069be5b2a3ca7b63d08f9236ee04f56d68f3827d",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goBuildSettings": {
+     "-compiler": "gc",
+     "CGO_CFLAGS": "",
+     "CGO_CPPFLAGS": "",
+     "CGO_CXXFLAGS": "",
+     "CGO_ENABLED": "1",
+     "CGO_LDFLAGS": "",
+     "GOAMD64": "v1",
+     "GOARCH": "amd64",
+     "GOOS": "linux",
+     "vcs": "git",
+     "vcs.modified": "true",
+     "vcs.revision": "069be5b2a3ca7b63d08f9236ee04f56d68f3827d",
+     "vcs.time": "2021-01-11T14:58:04Z"
+    },
+    "goCompiledVersion": "go1.18",
+    "architecture": "amd64"
+   }
+  }
+ ],
+ "artifactRelationships": [],
+ "source": {
+  "type": "directory",
+  "target": "."
+ },
+ "distro": {},
+ "descriptor": {
+  "name": "syft",
+  "version": "0.43.2",
+  "configuration": {
+   "configPath": "",
+   "output": [
+    "json=/out/sbom_syft.json",
+    "spdx-json=/out/sbom_spdx.json",
+    "cyclonedx-json=/out/sbom_cyclonedx.json",
+    "text=/out/sbom.txt"
+   ],
+   "file": "",
+   "quiet": false,
+   "check-for-app-update": true,
+   "anchore": {
+    "host": "",
+    "path": "",
+    "dockerfile": "",
+    "overwrite-existing-image": false,
+    "import-timeout": 30
+   },
+   "dev": {
+    "profile-cpu": false,
+    "profile-mem": false
+   },
+   "log": {
+    "structured": false,
+    "level": "error",
+    "file-location": ""
+   },
+   "package": {
+    "cataloger": {
+     "enabled": true,
+     "scope": "Squashed"
+    },
+    "search-unindexed-archives": false,
+    "search-indexed-archives": true
+   },
+   "file-metadata": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "Squashed"
+    },
+    "digests": [
+     "sha256"
+    ]
+   },
+   "file-classification": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "Squashed"
+    }
+   },
+   "file-contents": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "Squashed"
+    },
+    "skip-files-above-size": 1048576,
+    "globs": []
+   },
+   "secrets": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "AllLayers"
+    },
+    "additional-patterns": {},
+    "exclude-pattern-names": [],
+    "reveal-values": false,
+    "skip-files-above-size": 1048576
+   },
+   "registry": {
+    "insecure-skip-tls-verify": false,
+    "insecure-use-http": false,
+    "auth": []
+   },
+   "exclude": [],
+   "attest": {
+    "key": "cosign.key"
+   },
+   "platform": ""
+  }
+ },
+ "schema": {
+  "version": "3.2.2",
+  "url": "https://raw.githubusercontent.com/anchore/syft/main/schema/json/schema-3.2.2.json"
+ }
+}

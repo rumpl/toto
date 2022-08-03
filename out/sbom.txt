@@ -1,0 +1,6 @@
+[Path: .]
+[github.com/rumpl/toto]
+ Version:	 069be5b2a3ca7b63d08f9236ee04f56d68f3827d
+ Type:		 go-module
+ Found by:	 go-module-binary-cataloger
+

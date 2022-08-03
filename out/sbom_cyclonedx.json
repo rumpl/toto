@@ -1,0 +1,61 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.4",
+  "serialNumber": "urn:uuid:d68a960c-359b-421b-b558-c50a1917d1e1",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2022-04-07T15:56:07Z",
+    "tools": [
+      {
+        "vendor": "anchore",
+        "name": "syft",
+        "version": "0.43.2"
+      }
+    ],
+    "component": {
+      "bom-ref": "af63bd4c8601b7f1",
+      "type": "file",
+      "name": "."
+    }
+  },
+  "components": [
+    {
+      "bom-ref": "pkg:golang/github.com/rumpl/toto@069be5b2a3ca7b63d08f9236ee04f56d68f3827d?syft-id=e1c2e6131f5e221e",
+      "type": "library",
+      "name": "github.com/rumpl/toto",
+      "version": "069be5b2a3ca7b63d08f9236ee04f56d68f3827d",
+      "cpe": "cpe:2.3:a:rumpl:toto:069be5b2a3ca7b63d08f9236ee04f56d68f3827d:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/rumpl/toto@069be5b2a3ca7b63d08f9236ee04f56d68f3827d",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "GolangBinMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "src/app"
+        },
+        {
+          "name": "syft:metadata:architecture",
+          "value": "amd64"
+        },
+        {
+          "name": "syft:metadata:goCompiledVersion",
+          "value": "go1.18"
+        }
+      ]
+    }
+  ]
+}

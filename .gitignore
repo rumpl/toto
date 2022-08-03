@@ -14,3 +14,4 @@ cov
 *.out
 # The binary
 toto
+node_modules
